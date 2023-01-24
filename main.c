@@ -6,7 +6,7 @@ int main(void) {
   int *ptr = &arr;            // pointer to an array
   printf("This size of pointer to array is : %lu bytes\n", sizeof(*ptr));
   for (int i = 0; i < 5; i++) {
-    printf("Values %d :",
+    printf(" %d :",
            (*ptr + i)); // accessing values of array using pointers.
   }
   return 0;
